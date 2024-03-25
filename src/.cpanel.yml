@@ -1,0 +1,6 @@
+﻿---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home1/dicepaci/repositories/DicePacific
+    - /bin/cp -r * $DEPLOYPATH
+    - /bin/rm -f $DEPLOYPATH/.cpanel.yml
